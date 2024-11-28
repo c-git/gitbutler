@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SectionCard from '$lib/components/SectionCard.svelte';
+	import SectionCard from '@gitbutler/ui/SectionCard.svelte';
 
 	export let roundedTop = true;
 	export let roundedBottom = true;
