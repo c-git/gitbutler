@@ -27,7 +27,7 @@
 		onDblClick?: () => void;
 	}
 
-	let {
+	const {
 		viewport,
 		direction,
 		defaultLineColor = 'none',
