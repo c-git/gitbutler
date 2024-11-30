@@ -46,7 +46,7 @@
 		onDblClick
 	}: Props = $props();
 
-	let orientation = $derived(['left', 'right'].includes(direction) ? 'horizontal' : 'vertical');
+	const orientation = $derived(['left', 'right'].includes(direction) ? 'horizontal' : 'vertical');
 
 	let initial = 0;
 	let dragging = $state(false);
